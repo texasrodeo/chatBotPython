@@ -1,5 +1,5 @@
-from questionsGeneration.PPattern import PPattern
-from questionsGeneration.Answer import Answer
+from dataProvider.questionsGeneration.PPattern import PPattern
+from dataProvider.questionsGeneration.Answer import Answer
 
 class PatternAnswerTuple:
     def __init__(self, pattern: PPattern, answer:Answer, analyzeResult):

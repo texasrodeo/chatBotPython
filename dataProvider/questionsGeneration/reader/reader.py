@@ -1,8 +1,8 @@
 import json
 import io
 import xml.etree.ElementTree as ET
-from questionsGeneration.PPattern import PPattern
-from questionsGeneration.Answer import Answer
+from dataProvider.questionsGeneration.PPattern import PPattern
+from dataProvider.questionsGeneration.Answer import Answer
 
 
 def read_answers_file():

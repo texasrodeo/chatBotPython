@@ -1,7 +1,6 @@
-import json
-from questionsGeneration.answersParser import AnswersParser
-from questionsGeneration.questionsConstruction import QuestionsConstructor
-from questionsGeneration.writer.writer import IntentFileWriter
+from dataProvider.questionsGeneration.answersParser import AnswersParser
+from dataProvider.questionsGeneration.questionsConstruction import QuestionsConstructor
+from dataProvider.questionsGeneration.writer.writer import IntentFileWriter
 
 answersParser = AnswersParser()
 questionsConstructor = QuestionsConstructor()

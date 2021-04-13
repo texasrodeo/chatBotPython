@@ -1,5 +1,5 @@
-from questionsGeneration.PatternAnswerTuple import PatternAnswerTuple
-from questionsGeneration.Question import Question
+from dataProvider.questionsGeneration.PatternAnswerTuple import PatternAnswerTuple
+from dataProvider.questionsGeneration.Question import Question
 
 
 # Вопросы генерирровать с вопросительными словами по падежу

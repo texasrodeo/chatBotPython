@@ -1,5 +1,5 @@
-import questionsGeneration.reader.reader as reader
-from questionsGeneration.PatternAnswerTuple import PatternAnswerTuple
+import dataProvider.questionsGeneration.reader.reader as reader
+from dataProvider.questionsGeneration.PatternAnswerTuple import PatternAnswerTuple
 
 
 class AnswersParser:

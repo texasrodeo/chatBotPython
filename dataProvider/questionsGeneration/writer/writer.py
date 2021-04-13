@@ -1,6 +1,5 @@
 import json
-import codecs
-from questionsGeneration.reader.reader import read_answers_file
+from dataProvider.questionsGeneration.reader.reader import read_answers_file
 
 class IntentFileWriter:
     def __init__(self, questions, answers):
